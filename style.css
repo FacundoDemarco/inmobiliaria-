@@ -7,12 +7,12 @@ body{
 }
 
 
-  @media (min-width: 922px) {
+@media (min-width: 922px) {
     .d-flex {
         position: fixed;
         right: 60px;
     }
-  }
+}
 
 
 .section-padding {
@@ -52,4 +52,20 @@ body{
     left: 0;
     background: rgba(0, 0, 0, 0.7);
     z-index: 1;
+}
+
+.navbar-light .navbar-brand{
+    color: black;
+    font-size:25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.scan{
+    color: grey;
+    font-size:25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
